@@ -3,6 +3,9 @@ This sample application demonstrates the use of Spring Security for protecting a
 application against CSRF attacks without using the authentication and authorization
 features provided by Spring Security.
 
+Download it and run it as `mvn clean tomcat7:run`.  Then access it using a web
+browser at [http://localhost](http://localhost).
+
 # License
 This sample application and its associated source code in its entirety is being made
 available under the following licensing terms.
