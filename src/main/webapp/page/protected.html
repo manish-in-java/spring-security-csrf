@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Welcome!</title>
+    <link th:href="@{/css/main.css}" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="container">
+      <h3>CSRF Protection with Spring Security!</h3>
+      <form th:action="@{/protected}" method="POST">
+        <fieldset>
+          <legend>CSRF Protected Form</legend>
+          <button>Submit</button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
